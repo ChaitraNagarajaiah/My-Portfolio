@@ -5,6 +5,8 @@
     right: 30px;  
     font-size: 15px;
     margin-top: 0px;
+    width: 25%;
+    float: left;
 
 }
 .bio-info{
@@ -17,6 +19,7 @@
 .bio-image{
     float:left;
     padding-right: 15px;
+    width: 25%;
 }
 
 .Pschycic-Game{
@@ -27,6 +30,16 @@ body{
     background-image: url("https://b.stripecdn.com/site-srv/assets/img/blog/posts/connect-frontend/header-background-fca7c86a3378d48e2f3bf0ccda9e7fbfa2bebe96.png");
     background-size: cover;
 }
+
+#info-div {
+    display: inline;
+}
+
+.info {
+    /* display: inline-block */
+    width: 50%;
+}
+
 @media only screen and (max-width: 768px) {
    h1{
        font-size: 20px;
