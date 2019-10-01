@@ -1,100 +1,88 @@
-
-
-.contacts{
-    position: absolute;
-    right: 30px;  
-    font-size: 15px;
-    margin-top: 0px;
-    width: 25%;
-    float: left;
-
+.contacts {
+  right: 30px;
+  font-size: 15px;
+  width: 25%;
+  float: right;
+  position: absolute;
+  margin-top: 2px;
 }
-.bio-info{
-    margin-right: 400px;
-    float:right;
-    margin-bottom: 15px;
-
-
+.bio-info {
+  margin-right: 400px;
+  float: right;
+  margin-bottom: 15px;
 }
-.bio-image{
-    float:left;
-    padding-right: 15px;
-    width: 25%;
+.bio-image {
+  float: left;
+  padding-right: 15px;
+  width: 25%;
 }
 
-.Pschycic-Game{
-    border: 1px solid black;
+.Pschycic-Game {
+  border: 1px solid black;
 }
 
-body{
-    background-image: url("https://b.stripecdn.com/site-srv/assets/img/blog/posts/connect-frontend/header-background-fca7c86a3378d48e2f3bf0ccda9e7fbfa2bebe96.png");
-    background-size: cover;
+body {
+  background-image: url("https://b.stripecdn.com/site-srv/assets/img/blog/posts/connect-frontend/header-background-fca7c86a3378d48e2f3bf0ccda9e7fbfa2bebe96.png");
+  background-size: cover;
 }
 
 #info-div {
-    display: inline;
+  display: inline;
 }
 
 .info {
-    /* display: inline-block */
-    width: 50%;
+  /* display: inline-block */
+  width: 50%;
 }
 
 @media only screen and (max-width: 768px) {
-   h1{
-       font-size: 20px;
-     
-   }
-   .bio-image{
-       height: 100px;
-       width:110px;
-       padding-right: 20px;
-   }
-   .bio-info{
-       font-size: 10px;
-    
-    
-   }   
-   
-   .contacts{
-       font-size: 10px;
-       margin-right: 80px;
+  h1 {
+    font-size: 20px;
+  }
+  .bio-image {
+    height: 100px;
+    width: 110px;
+    padding-right: 20px;
+  }
+  .bio-info {
+    font-size: 10px;
+  }
 
-   }
-   h3{
-       font-size: 15px;
-
-   }
-   h4{
-       font-size: 13px;
-   }
-   .Pschycic-Game{
-       height:100px;
-       width:110px;
-   }
-  .Crystal-Collector-Game{
-    height:100px;
-    width:110px;
+  .contacts {
+    font-size: 10px;
+    margin-right: 80px;
   }
-  .Translate-Tweet-app{
-    height:100px;
-    width:110px; 
+  h3 {
+    font-size: 15px;
   }
-  p1{
-      font-size: 10px;
-    
+  h4 {
+    font-size: 13px;
   }
-  a{
-      font-size: 10px;
+  .Pschycic-Game {
+    height: 100px;
+    width: 110px;
+  }
+  .Crystal-Collector-Game {
+    height: 100px;
+    width: 110px;
+  }
+  .Translate-Tweet-app {
+    height: 100px;
+    width: 110px;
+  }
+  p1 {
+    font-size: 10px;
+  }
+  a {
+    font-size: 10px;
   }
 }
 
-@media only screen and (max-width:375px){
-   h1{
-       font-size: 20px;
-   }
-.contacts{
- font-size: 13px;
-}
-
+@media only screen and (max-width: 375px) {
+  h1 {
+    font-size: 20px;
+  }
+  .contacts {
+    font-size: 13px;
+  }
 }
